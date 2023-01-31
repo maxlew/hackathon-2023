@@ -60,7 +60,6 @@ const boxes = [
     top: 56,
     left: 6,
   },
-
 ]
 
 

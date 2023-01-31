@@ -23,3 +23,12 @@ export const Box = styled.div`
     transform: scale(9);
   }
 `;
+
+const BoxWithSound = (props) => {
+
+  const handleMouseOver = () => {
+
+  }
+
+  return <Box {...props} onMouseOver={handleMouseOver} />
+}
