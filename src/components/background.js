@@ -6,6 +6,6 @@ export const Background = styled.div`
   top: 0px;
   width: 100vw;
   height: 100vh;
-  background-image: url('https://images.unsplash.com/photo-1674784764904-2200fd51e1c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1933&q=80');
+  background-image: url('https://www.aesop.com/u1nb1km7t5q7/1jXLpAkx42n3ti2GDZkOVn/c6b53d625e645dadad18f7d94b88e2a4/Aesop_Collins_Street_II_Carousel_1_Desktop_2560x1440px.jpg');
   background-size: cover;
 `;
