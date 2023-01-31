@@ -12,7 +12,7 @@ export const Box = styled.div`
   width: 30vw;
   height: 30vh;
   background-color: ${props => props.color || 'red'};
-  mix-blend-mode: multiply;
+  mix-blend-mode: ${props => props.blend};
   transition: transform 800ms ease-in-out;
 
   &:hover {
