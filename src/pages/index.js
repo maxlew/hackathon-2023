@@ -5,19 +5,52 @@ import { Background } from '@/components/background'
 
 const boxes = [
   {
-    color: '#864b3f',
+    color: '#92AA91',
+    name: 'Karst',
     top: 10,
     left: 10,
   },
   {
-    color: '#f2ad3e',
+    color: '#BEC684',
+    name: 'Tacit',
     top: 20,
     left: 40,
   },
   {
-    color: '#7e8c4c',
+    color: '#CFCF7F',
+    name: 'Eremia',
     top: 60,
-    left: 40,
+    left: 60,
+  },
+  {
+    color: '#BEB17E',
+    name: 'Rozu',
+    top: 27,
+    left: 18,
+  },
+  {
+    color: '#C5987A',
+    name: 'Marrakech',
+    top: 5,
+    left: 58,
+  },
+  {
+    color: '#BE875C',
+    name: 'Eidesis',
+    top: 34,
+    left: 63,
+  },
+  {
+    color: '#B07056',
+    name: 'Miraceti',
+    top: 58,
+    left: 36,
+  },
+  {
+    color: '#826569',
+    name: 'Hwyl',
+    top: 47,
+    left: 12,
   },
 
 ]
@@ -31,7 +64,7 @@ export default function Home() {
       </Head>
       <main>
         <Background>
-          {boxes.map((args) => <Box {...args} />)}
+          {boxes.map((args) => <Box {...args}>{args.name}</Box>)}
         </Background>
       </main>
     </>

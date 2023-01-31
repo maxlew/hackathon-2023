@@ -2,6 +2,10 @@ import styled from 'styled-components';
 
 
 export const Box = styled.div`
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 30vh;
+
   position: fixed;
   top: ${props => props.top}vh;
   left: ${props => props.left}vw;
